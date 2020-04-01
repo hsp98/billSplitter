@@ -1,4 +1,4 @@
-from ..BillSplit import processInPlace
+from BillSplit import processInPlace
 
 
 def testTransactionDataProcessing():

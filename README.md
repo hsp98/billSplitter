@@ -24,7 +24,7 @@ pip install -r requirements.txt
 
 Tests are written for each function and can be verified by the following command:
 ```
-pytest
+PYTHONPATH=. pytest
 ```
 
 ### Unit Test Description

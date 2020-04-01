@@ -1,6 +1,6 @@
 import os
 
-from ..BillSplit import getInputOutputFilename
+from BillSplit import getInputOutputFilename
 
 
 def testValidFilenames(monkeypatch):
