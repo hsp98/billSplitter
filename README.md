@@ -22,7 +22,7 @@ pip install -r requirements.txt
 
 ## Running the tests
 
-Tests are written for each function and can be verified by the following command:
+Tests are written for each function and can be verified by the following command:<br/>
 For Linux and Mac
 ```
 PYTHONPATH=. pytest
