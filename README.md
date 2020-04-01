@@ -23,21 +23,21 @@ pip install -r requirements.txt
 ## Running the tests
 
 Tests are written for each function and can be verified by the following command:<br/>
-For Linux and Mac
+**For Linux and Mac**
 ```
-PYTHONPATH=. pytest
+$ PYTHONPATH=. pytest
 ```
-For Windows
+**For Windows**
 ```
 Powershell> $env:PYTHONPATH ="$(get-location)"
 Powershell> pytest
 ```
 
 ### Unit Test Description
-**testValidFilenames(monkeypatch)**: Given an array representing sys.argv<br/>It tests whether the output filename is created as expected.<br/>
-**testThrowExceptionFilenotfound()**: Given an array representing sys.argv<br/>It asserts the FileNotFoundError generated when filename in args is missing.<br/>
-**testThrowExceptionArgMissing()**: Given an array representing sys.argv<br/>It asserts the Exception when filename is missing in the args.<br/>
-**testTransactionDataProcessing()**: Given a sample input Data. It asserts the result whether it is evaluated properly.<br/>
+**testValidFilenames**: Given an array representing sys.argv<br/>It tests whether the output filename is created as expected.<br/>
+**testThrowExceptionFilenotfound**: Given an array representing sys.argv<br/>It asserts the FileNotFoundError generated when filename in args is missing.<br/>
+**testThrowExceptionArgMissing**: Given an array representing sys.argv<br/>It asserts the Exception when filename is missing in the args.<br/>
+**testTransactionDataProcessing**: Given a sample input Data. It asserts the result whether it is evaluated properly.<br/>
 
 ### Main Program Execution
 ```
