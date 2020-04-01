@@ -1,4 +1,4 @@
-﻿##  Bill Splitter ![js-standard-style](https://img.shields.io/badge/Python-brightgreen.svg?style=flat)
+##  Bill Splitter ![js-standard-style](https://img.shields.io/badge/Python-brightgreen.svg?style=flat)
 Several friends planned to go camping every year. The group agrees in advance to share expenses equally, but it is not practical to have them share every expense as it occurs. Each individual in the group will pay for particular things, like food, drinks, supplies, the campsite, parking, etc. After the camping trip, each person’s expenses are tallied and money is exchanged so that the net cost to each is the same. This task is tedious and time-consuming. The objective of this application is to compute the payable amount for each person going in camping.
 
 
@@ -23,8 +23,14 @@ pip install -r requirements.txt
 ## Running the tests
 
 Tests are written for each function and can be verified by the following command:
+For Linux and Mac
 ```
 PYTHONPATH=. pytest
+```
+For Windows
+```
+Powershell> $env:PYTHONPATH ="$(get-location)"
+Powershell> pytest
 ```
 
 ### Unit Test Description
